@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serwerTCP", "serwerTCP.csproj", "{35AEE4B1-6FF8-4F69-9401-51138B74D059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotekKlas", "..\BibliotekKlas\BibliotekKlas.csproj", "{4D162F51-C1C5-409B-A78A-0E8F7825E136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35AEE4B1-6FF8-4F69-9401-51138B74D059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AEE4B1-6FF8-4F69-9401-51138B74D059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AEE4B1-6FF8-4F69-9401-51138B74D059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AEE4B1-6FF8-4F69-9401-51138B74D059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D162F51-C1C5-409B-A78A-0E8F7825E136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D162F51-C1C5-409B-A78A-0E8F7825E136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D162F51-C1C5-409B-A78A-0E8F7825E136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D162F51-C1C5-409B-A78A-0E8F7825E136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F91E81D-8E49-4930-A54B-98456D29E8A9}
+	EndGlobalSection
+EndGlobal

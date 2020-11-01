@@ -11,8 +11,8 @@ namespace serwerTCP
     {
         static void Main(string[] args)
         {
-            BibliotekKlas.SerwerTCP serwer = new BibliotekKlas.SerwerTCP();
-            serwer.Start();
+            BibliotekKlas.SerwerAsynchroniczny serwer = new BibliotekKlas.SerwerAsynchroniczny(IPAddress.Parse("127.0.0.1"),7777);
+            serwer.start();
          
         }
     }
